@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+}
+
+h2, h3, p, ul, li {
+    padding-top: 10px;
+}
+
+div.perfil {
+    background-color: rgb(173, 206, 243);
+    text-align: center;
+}
+
+div.resumo {
+    background-color: rgb(230, 228, 228);
+    text-align: center;
+}
+
+a.button {
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+h2 {
+    color: rgb(59, 59, 184); 
+}
+
+hr {
+    background-color: rgb(187, 187, 233);
+    height: 3px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h3 {
+    color:rgb(187, 187, 233);
+}
+
+#github {
+    background-color: rgb(85, 81, 81);
+}
+
+#instagram {
+    background-color: #c92d83
+}
+
+#youtube {
+    background-color: #FF0000;
+}
+
+#ani-exemplo:before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+#ani-exemplo:hover:before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#ani-exemplo:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: rgb(173, 206, 243);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+#ani-exemplo {
+  position: relative;
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+html {
+    block-size: 100%;
+    inline-size: 100%;
+}
+  
+body {
+    min-block-size: 100%;
+    min-inline-size: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    display: grid;
+    place-content: center;
+    font-family: system-ui, sans-serif;
+}
+
+ul {
+    margin-left: 20px;
+}

@@ -1,0 +1,180 @@
+* {
+    background-color: azure;
+    text-align: center;
+    margin: 0 0 0 0;
+    color: rgb(255, 255, 255);
+    font-family: "Poppis", sans-serif;
+}
+
+.aside_informacoes {
+    background-color: blue;
+    float: left;
+    width: 30vw;
+    height: 100vh;
+}
+
+.content {
+    display: none;
+    height: 320px;
+    width: 70vw;
+    position: fixed; 
+    right: 0;
+    top: 20px;
+    color: black;
+
+}
+
+.perfil {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+}
+
+h1, h2 {
+    margin-top: 10px;
+    color: black;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 30px;
+    background-color: blue
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: blue;
+}
+
+h5, h6 {
+    font-size: 20px;
+    color: black;
+}
+
+/* Formatação da tabela de Formação Acadêmica */
+.tabela_form_acad {
+    font-size: 20px;
+    color: black;
+    background-color: azure;
+    text-align: left;
+    list-style: outside;
+}
+
+label {    
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+label:hover {
+    cursor: pointer;
+    color: rgb(85, 81, 81);
+    text-decoration: underline;
+}
+
+
+ul {
+    list-style: none;/* Remover os marcadores da lista */
+    background-color: blue;
+}
+.button {
+    color: rgba(255, 255, 255, 0.466);
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+#github {
+    background-color: rgba(21, 173, 1, 0.589);
+}
+
+#linkedin {
+    background-color: rgb(0, 36, 241);
+}
+
+#twitch {
+    background-color: #840bf5c5;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent); 
+    margin-top: 20px;
+    margin: auto;
+    width: 90%;
+    margin-top: 20px;
+}
+
+/* Estilo dos cards de projeto */
+#proj_1, #proj_2, #proj_3, #proj_4, #proj_5, #proj_6 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgb(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+    background-color: blue;
+} 
+
+#img_card {
+    height: 150px;
+    width: 200px;
+}
+
+.conteudo_sobre {
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+}
+
+/* Comportamento dos Cards de Projetos */
+#proj_1:hover, #proj_2:hover, #proj_3:hover, 
+#proj_4:hover, #proj_5:hover, #proj_6:hover {
+    transform: translate(-5px);
+    cursor: pointer;
+    border-bottom: 5px solid black;/* Borda vermelha inferior ao passar o mouse */
+} 
+
+#conteudo_card {
+    background-color: blue;
+}
+ /* Posicionamento das duas linhas de Cards de Projetos */
+.row_1, .row_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+a:hover {
+    color: rgb(85, 81, 81);
+    text-decoration: underline;
+}
+
+.rd_tabs {
+    display: none;
+}
+
+.rd_tabs:checked ~ .content {
+    display: block;
+    color: black;
+    background-color: rgba(240, 249, 255, 0.123);
+}
+
+.rd_tabs:checked ~ label {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
