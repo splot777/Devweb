@@ -3,5 +3,4 @@ todos os 5 projetos :D
 # Devweb
 ![Badge](https://img.shields.io/github/stars/splot777/Devweb)
 
-- [Meu escritorio/loja](csgoskins2022.netlify.app)
-- SITE QUE FUNCIONA
+- Projeto que fiz de um curso do governo para introdução a programação
