@@ -1,4 +1,4 @@
-# Devweb
+# Curso-DesenvolvimentoWeb
 todos os 5 projetos :D
 # Devweb
 ![Badge](https://img.shields.io/github/stars/splot777/Devweb)
